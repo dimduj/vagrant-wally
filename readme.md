@@ -1,7 +1,7 @@
-= Vagrant for wally =
+# Vagrant for wally 
 
 This is a beta
 
-== Credits ==
+## Credits
 
-http://jamesmcfadden.co.uk/using-vagrant-and-puppet-to-build-a-php-nginx-and-mysql-environment/
+* http://jamesmcfadden.co.uk/using-vagrant-and-puppet-to-build-a-php-nginx-and-mysql-environment/
