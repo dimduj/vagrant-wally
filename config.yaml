@@ -1,0 +1,21 @@
+---
+configs:
+    use: 'home'
+    office:
+        public_ip: '192.168.2.117'
+        config_vm_box: 'hashicorp/precise64'
+        forwarded_port_web_host: '8989'
+        forwarded_port_web_guest: '80'
+        forwarded_port_varnish_host: '8990'
+        forwarded_port_varnish_guest: '8090'
+    home:
+        public_ip: '192.168.1.117'
+        config_vm_box: "hashicorp/precise64"
+        wally_core_repo_git_url: ''
+        wally_integration_repo_git_url: ''
+        wally_design_repo_git_url: ''
+        forwarded_port_web_host: '8989'
+        forwarded_port_web_guest: '80'
+        forwarded_port_varnish_host: '8990'
+        forwarded_port_varnish_guest: '8090'
+        mysql_password: 'toto'
