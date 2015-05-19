@@ -1,3 +1,6 @@
 [submodule "puppet/modules/vcsrepo"]
 	path = puppet/modules/vcsrepo
 	url = https://github.com/puppetlabs/puppetlabs-vcsrepo
+[submodule "puppet/modules/puppet-mysql"]
+	path = puppet/modules/puppet-mysql
+	url = https://github.com/example42/puppet-mysql
